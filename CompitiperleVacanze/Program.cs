@@ -7,8 +7,8 @@ namespace CompitiperleVacanze
         static void Main(string[] args)
         {
             int a = int.MaxValue;
-            Console.WriteLine(a);
-            Console.WriteLine(a+1);
+            Console.WriteLine(a);//qua il codice stampa il numero massimo
+            Console.WriteLine(a+1);//qua si nota un'errore perchè a va in overflow per qui stampa 1
             int b = -128;
             int c = -b;
             Console.WriteLine(Convert.ToString(b,2));
@@ -23,6 +23,7 @@ namespace CompitiperleVacanze
             Console.WriteLine(Convert.ToString(number,2));
             short number1 = (short)number;
             Console.WriteLine(number1);
+            Console.ReadLine();
         }
     }
 }
